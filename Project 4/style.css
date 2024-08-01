@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html,
+body{
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.hero_section{
+    background-image: url(Developer.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.txt_container{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 40px;
+    padding-left: 33px;
+    margin: 0 auto;
+}
+
+span{
+    text-decoration: line-through;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.black_box{
+    background-color: black;
+    color: #fff;
+    height: 80px;
+    padding-top: 26px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#one{
+    text-decoration: solid;
+    font-size: x-large;
+    text-decoration-line: line-through;
+}
+
+.work{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 20px 0px;
+    
+}
+.card{
+    max-width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.1)
+
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2)
+   
+}
+
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container{
+    resize: horizontal;
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+    border-image:none;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    text-align:justify;
+}
+h3{
+   font-weight: 800;
+   font-size: larger;
+}
+.bottom_section{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+.contact{
+    width: 50%;
+   background-color: rgb(41, 105, 41);
+}
+.about{
+    width: 50%;
+   background-color: rgb(110, 24, 24);
+}
+.contact , .about{
+    min-height: 300px;
+    padding: 32px;
+    color: #fff;
+}
+.contact p, .about p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.contact h2, .about h2{
+    padding-bottom: 16px;
+    font-size: 40px;
+    padding-left: 60px;
+}
+footer{
+    font-size: 25px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    padding-left:40%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
